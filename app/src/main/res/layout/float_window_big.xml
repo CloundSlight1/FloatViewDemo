@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/big_window_layout"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="@dimen/big_float_view_width"
+	android:layout_height="@dimen/big_float_view_height"
+	android:background="#aaa"
+	android:orientation="vertical"
+	>
+
+	<Button
+		android:id="@+id/close"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="关闭悬浮窗"
+		/>
+
+	<Button
+		android:id="@+id/back"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="返回"
+		/>
+</LinearLayout>
